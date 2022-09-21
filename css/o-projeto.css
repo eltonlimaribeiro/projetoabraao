@@ -1,0 +1,162 @@
+#intro .bg{
+   background-image: url('/img/o-projeto/intro-bg.webp');
+}
+
+#intro .container{
+   grid-column: 1/3;
+   grid-row: 1/3;
+}
+
+#intro img{
+   width: 200px;
+}
+
+#intro .titulo-pagina{
+   font-size: 3.5em;
+   color: var(--corSecundaria);
+   font-weight: bold;
+   text-transform: uppercase;
+}
+
+#intro .slogan{
+   font-size: 2.5em;
+   color: var(--corPrimaria);
+   font-style: italic;
+   width: 450px;
+}
+
+#o-projeto{
+   height: calc(100vh - 50px);
+   display: flex;
+   justify-content: center;
+   flex-direction: column;
+
+   background-color: #EFEFEF;
+}
+
+#o-projeto img{
+   display: flex;
+   /* align-self: end; */
+}
+
+#o-projeto #intercessores{
+   display: grid;
+   grid-template-columns: repeat(3, 3fr);
+   grid-template-rows: 1fr;
+}
+
+#o-projeto #intercessores div::before{
+   content: '';
+   display: block;
+   width: 10px;
+   border-top-left-radius: 5px;
+   border-bottom-left-radius: 5px;
+   background-color: var(--corPrimaria);
+   height: auto;
+
+   grid-column: 1;
+   grid-row: 1/3;
+}
+
+#o-projeto #intercessores div{
+   grid-column: 1/3;
+   grid-row: 1;
+   background-color: #FFF;
+   z-index: 1;
+
+   margin-top: 20px;
+   margin-left: 100px;
+   padding-right: 20px;
+
+   border-radius: 5px;
+   
+   display: grid;
+   grid-template-columns: repeat(1, 1fr);
+   grid-template-rows: 1fr 1fr;
+   width: fit-content;
+}
+
+#o-projeto #intercessores .qtde-intercessores{
+   font-family: 'Rajdhani', sans-serif;
+   font-size: 5em;
+   font-weight: bold;
+   color: var(--corSecundaria);
+   grid-column: 1/3;
+   grid-row: 1/3;
+
+   margin-left: 20px;
+}
+
+
+#o-projeto #intercessores div span:nth-child(2){
+   font-size: 2.5em;
+   font-weight: bold;
+   color: var(--corPrimaria);
+   grid-column: 2;
+   grid-row: 2;
+
+   margin-left: 50px;
+}
+
+#o-projeto #intercessores img{
+   grid-column: 2/4;
+   grid-row: 1;
+
+   max-width: 100%
+}
+
+#por-que-projeto-abraao .container{
+   display: flex;
+   background-color: var(--corSecundaria);
+   padding: 0;
+}
+
+#por-que-projeto-abraao .container .texto{
+   padding: 20px;
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between;
+}
+
+#por-que-projeto-abraao .container .texto,
+#por-que-projeto-abraao .container .texto h1
+{
+   color: #fff;
+}
+
+#o-projeto .container,
+#por-que-100-mil-intercessores .container,
+#intercessao .container,
+#como-tornar-se-um-intercessor .container
+{
+   display: flex;
+   align-items: center;
+   flex-direction: column;
+   align-items: start;
+   gap: 10px;
+}
+
+#o-projeto img:first-child{
+   width: 50px;
+}
+
+#o-projeto .titulo-secao{
+   margin-top: 10px;
+}
+
+#por-que-100-mil-intercessores,
+#por-que-projeto-abraao,
+#intercessao,
+#como-tornar-se-um-intercessor
+{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   height: calc(100vh - 60px);
+   background-position: center center;
+   background-repeat: no-repeat;
+}
+
+#intercessao{
+   background-image: url('/img/o-projeto/intercessao-bg.webp');
+}

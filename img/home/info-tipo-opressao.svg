@@ -1,0 +1,40 @@
+<svg id="Camada_x0020_1" xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 50 50">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+      }
+
+      .cls-2, .cls-3 {
+        fill: #ee1515;
+      }
+
+      .cls-3 {
+        fill-rule: evenodd;
+      }
+    </style>
+  </defs>
+  <g id="_1299723453936">
+    <rect id="Retângulo_21" data-name="Retângulo 21" class="cls-1" width="50" height="50"/>
+    <g id="Grupo_26" data-name="Grupo 26" transform="translate(0.391)">
+      <g id="Grupo_22" data-name="Grupo 22" transform="translate(0 21.677)">
+        <circle id="Elipse_1" data-name="Elipse 1" class="cls-2" cx="0.99" cy="0.99" r="0.99" transform="translate(10.603 25.021)"/>
+        <path id="Caminho_71" data-name="Caminho 71" class="cls-3" d="M60.24,263.549a1.721,1.721,0,1,1,1.721,1.721A1.721,1.721,0,0,1,60.24,263.549Zm5.014-2.759H49.52v8.325H65.254Z" transform="translate(-45.795 -260.79)"/>
+        <path id="Caminho_72" data-name="Caminho 72" class="cls-3" d="M16.293,322.61A11.593,11.593,0,1,0,27.885,334.2,11.592,11.592,0,0,0,16.293,322.61ZM8.763,334.2a7.53,7.53,0,1,1,7.53,7.53A7.53,7.53,0,0,1,8.763,334.2Zm7.53,8.7a.99.99,0,1,1-.99.99A.99.99,0,0,1,16.293,342.9Z" transform="translate(-4.7 -317.472)"/>
+      </g>
+      <g id="Grupo_23" data-name="Grupo 23" transform="translate(20.896)">
+        <circle id="Elipse_2" data-name="Elipse 2" class="cls-2" cx="0.99" cy="0.99" r="0.99" transform="translate(25.021 12.582) rotate(-90)"/>
+        <path id="Caminho_73" data-name="Caminho 73" class="cls-3" d="M258.859,49.825a1.721,1.721,0,1,1,1.721-1.721A1.72,1.72,0,0,1,258.859,49.825ZM256.1,44.81V60.544h8.325V44.81Z" transform="translate(-256.1 -41.085)"/>
+        <path id="Caminho_74" data-name="Caminho 74" class="cls-3" d="M317.91,11.593A11.593,11.593,0,1,0,329.5,0,11.593,11.593,0,0,0,317.91,11.593Zm11.593,7.53a7.53,7.53,0,1,1,7.53-7.53A7.53,7.53,0,0,1,329.5,19.122Zm8.7-7.53a.99.99,0,1,1,.99.99A.99.99,0,0,1,338.2,11.593Z" transform="translate(-312.772)"/>
+      </g>
+      <g id="Grupo_24" data-name="Grupo 24" transform="translate(10.235 11.591)">
+        <rect id="Retângulo_22" data-name="Retângulo 22" class="cls-2" width="2.104" height="10.492" transform="translate(0.168)"/>
+        <circle id="Elipse_3" data-name="Elipse 3" class="cls-2" cx="1.22" cy="1.22" r="1.22" transform="translate(0 7.52)"/>
+      </g>
+      <g id="Grupo_25" data-name="Grupo 25" transform="translate(10.403 10.372)">
+        <rect id="Retângulo_23" data-name="Retângulo 23" class="cls-2" width="2.104" height="10.492" transform="translate(0 2.272) rotate(-90)"/>
+        <circle id="Elipse_4" data-name="Elipse 4" class="cls-2" cx="1.22" cy="1.22" r="1.22" transform="translate(7.52 2.44) rotate(-90)"/>
+      </g>
+    </g>
+  </g>
+</svg>

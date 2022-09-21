@@ -1,0 +1,44 @@
+@media(max-width: 576px){
+  #cabecalho .container .row{
+    flex-direction: column;
+    padding: 20px;
+  }
+
+  #cabecalho .container .row img,
+  .nome-projeto,
+  .slogan
+  {
+    display: none;
+  }
+
+  .circulo-col{
+    width: 100%;
+  }
+
+  #titulo-boletim{
+    font-size: 2em;
+  }
+
+  #devocional img{
+    width: 100%;
+  }
+
+  p, .lista-curiosidades li, .lista-motivos-de-oracao li{
+    font-size: 1em;
+  }
+
+  .lista-curiosidades, .lista-motivos-de-oracao, .lista{
+    margin: 0px;
+    padding: 0;
+  }
+
+  .lista-curiosidades li, .lista-motivos-de-oracao li, .lista li{
+    padding-left: 10px;
+  }
+
+  #curiosidades h2,
+  #motivos-de-oracao h2
+  {
+    padding: 0;
+  }
+}

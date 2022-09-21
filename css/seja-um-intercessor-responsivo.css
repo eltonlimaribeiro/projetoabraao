@@ -1,0 +1,24 @@
+@media(max-width: 1024px){
+  #cadastre-se{
+    padding: 80px;
+  }
+}
+
+@media(max-width: 768px){
+  #cadastre-se{
+    height: 100%;
+  }
+  #cadastre-se .container div:nth-child(2){
+    flex-direction: column-reverse;
+  }
+
+  #cadastre-se .container div:nth-child(2) form{
+    width: 100%;
+  }
+}
+
+@media(max-width: 576px){
+  #cadastre-se{
+    padding: 80px 20px;
+  }
+}

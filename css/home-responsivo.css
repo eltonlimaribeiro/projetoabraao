@@ -1,0 +1,253 @@
+@media(max-width: 1366px){
+   #info .cards{
+      grid-template-columns: repeat(2, 1fr);
+   }
+
+   #coreia-do-norte-na-midia .cards{
+      grid-template-areas: 
+         "N1 N2"
+         "N1 N3"
+         "N4 N5"
+      ;
+
+      grid-template-columns: repeat(2, 358px);
+      justify-content: center;
+   }
+}
+
+@media(max-width: 1024px){
+   .titulo-secao{
+      font-size: 2em;
+   }
+
+   #intro .container{
+      padding: 0 80px;
+   } 
+
+   #o-projeto{
+      padding: 80px;
+   }
+
+   #ultimos-boletins{
+      padding: 80px;
+   }
+
+   #ultimos-boletins .cards{
+      padding: 10px;
+   }
+
+   #intercessores div:first-child{
+      background: var(--corPrimaria);
+      height: 100%;
+      width: 50%;
+      grid-row: 1;
+      grid-column: 1;
+   }
+
+   #intercessores .container{
+      padding: 80px;
+   }
+
+   #divulge-e-compartilhe .col-1{
+      padding-left: 80px;
+   }
+}
+
+@media(max-width: 992px){
+   #divulge-e-compartilhe{
+      overflow: hidden;
+   }
+
+   #divulge-e-compartilhe .bg{
+      width: 100vw;
+      grid-column: 1;
+   }
+
+   #divulge-e-compartilhe .titulo-secao,
+   #divulge-e-compartilhe .col-1 p.texto
+   {
+      color: #FFF;
+   }
+}
+
+@media(max-width: 768px){
+   section#intro div#texto-intro{
+      width: 80%;
+   }
+
+   #texto-intro p.citacao{
+      font-size: 2em;
+   }
+
+   #ultimos-boletins .cards .card a{
+      height: auto;
+   }
+
+   #info .conteudo img{
+      height: max-content;
+      display: flex;
+      align-self: center;
+   }
+
+   #divulge-e-compartilhe .col-2{
+      display: flex;
+      align-items: center;
+   }
+
+   #ultimos-boletins{
+      height: auto;
+   }
+
+   #ultimos-boletins .cards{
+      padding: 0;
+      gap: 10px;
+   }
+
+   #coreia-do-norte-na-midia{
+      height: auto;
+      padding: 80px 0;
+   }
+
+   #coreia-do-norte-na-midia .cards{
+      grid-template-columns: repeat(2, 1fr);
+      grid-template-rows: repeat(3, 1fr);
+   }
+   #coreia-do-norte-na-midia .cards .card img{
+      max-width: 100%;
+   }
+
+   #motivos-de-oracao{
+      background-position: center center;
+   }
+
+   #motivos-de-oracao .motivo-de-oracao{
+      font-size: 1.5em;
+   }
+
+   #divulge-e-compartilhe{
+      height: 100%;
+   }
+
+   #divulge-e-compartilhe .bg{
+      height: 100vh;
+   }
+}
+
+@media(max-width: 576px) {
+   #intro .container{
+      padding: 0 20px;
+   }
+   
+   #o-projeto{
+      padding: 80px 20px;
+   }
+
+   .titulo-secao{
+      font-size: 2em;
+   }
+
+   #texto-intro p.citacao{
+      font-size: 1.8em;
+   }
+
+   #ultimos-boletins{
+      padding: 80px 20px;
+   }
+
+   #ultimos-boletins .cards{
+      display: flex;
+      flex-wrap: wrap;
+      margin: 20px 0;
+   }
+
+   #intercessores h1{
+      font-size: 2em;
+   }
+   
+   #info{
+      padding: 80px 0;
+   }
+
+   #info .conteudo{
+      flex-direction: column;
+   }
+
+   #info .cards {
+      flex-wrap: wrap;
+      justify-content: center;
+   }
+
+   #info .cards{
+      display: flex;
+      flex-wrap: wrap;
+   }
+
+   #info .conteudo .texto{
+      margin-top: 20px;
+      padding: 0;
+   }
+
+   #coreia-do-norte-na-midia{
+      padding: 80px 0;
+   }
+
+   #coreia-do-norte-na-midia .cards{
+      display: flex;
+      flex-direction: column;
+   }
+
+   #coreia-do-norte-na-midia .cards .card:nth-of-type(1) a,
+   #coreia-do-norte-na-midia .cards .card:nth-of-type(2) a,
+   #coreia-do-norte-na-midia .cards .card:nth-of-type(3) a
+   {
+      display: flex;
+      flex-direction: column;
+      align-items: stretch;
+   }
+
+   #coreia-do-norte-na-midia .cards .card span.site,
+   #coreia-do-norte-na-midia .cards .card span.data{
+      color: var(--corSecundaria);
+   }
+   
+   #coreia-do-norte-na-midia .cards .card a p.titulo
+   {
+      color: var(--corEscura);
+   }
+
+   #coreia-do-norte-na-midia .cards .card a{
+      width: 100%;
+   }
+
+   #divulge-e-compartilhe{
+      display: flex;
+      height: auto;
+      margin: 80px 0;
+      padding: 0;
+   }
+
+   #divulge-e-compartilhe .container{
+      flex-direction: column;
+   }
+
+   #divulge-e-compartilhe .col-1{
+      padding-left: 10px;
+      width: 100%;
+   }
+
+   #divulge-e-compartilhe .bg{
+      background-color: #FFF;
+   }
+
+   #divulge-e-compartilhe img{
+      width: 100vw;
+      padding-right: 20px;
+   }
+
+   #divulge-e-compartilhe .titulo-secao,
+   #divulge-e-compartilhe .col-1 p.texto
+   {
+      color: var(--corEscura);
+   }
+
+}

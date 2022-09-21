@@ -1,0 +1,172 @@
+@media(max-width: 1440px){
+  #intro .titulo-pagina{
+    font-size: 3em;
+  }
+  
+  #conteudo-1,
+  #conteudo-3,
+  #conteudo-6
+  {
+    height: auto;
+    padding: 80px;
+  }
+}
+
+@media(max-width: 1366px){
+  #conteudo-5{
+    height: auto;
+    padding: 80px 20px;
+  }
+}
+
+@media(max-width: 1024px){
+  #intro .texto-intro{
+    padding: 0 80px;
+  }
+  
+  #intro .titulo-pagina{
+    font-size: 2.5em;
+  }
+
+  .titulo-secao{
+    font-size: 2em;
+  }
+
+  #conteudo-3-texto-1{
+    flex-direction: column-reverse;
+  }
+
+  #conteudo-2-texto p{
+    font-size: .9em;
+  }
+
+  #conteudo-3-img-texto img{
+    max-width: 100%;
+  }
+
+  #conteudo-3-texto-2{
+    flex-direction: column-reverse;
+  }
+
+  #conteudo-4{
+    padding: 80px;
+  }
+
+  #conteudo-4 .container{
+    gap: 20px;
+  }
+
+  #conteudo-4 .container #fotos{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  #conteudo-4 #fotos img{
+    max-width: 100%;
+  }
+
+  #conteudo-5 img{
+    width: 50%;
+  }
+
+  #conteudo-6 .container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  #conteudo-6 .container img{
+    max-width: 100%;
+  }
+
+  #conteudo-6 #conteudo-6-col-2 p:nth-child(3){
+    font-size: 2em;
+  }
+}
+
+@media(max-width: 768px){
+  #conteudo-1 #conteudo-1-texto{
+    flex-direction: column;
+  }
+
+  #conteudo-1-texto div{
+    padding-top: 20px;
+    padding-left: 0;
+  }
+
+  #conteudo-2 img{
+    display: none;
+  }
+
+  #conteudo-2 .container #conteudo-2-texto{
+    padding: 80px 20px;
+  }
+
+  #conteudo-3-img-texto p{
+    font-size: 2em;
+  }
+
+  #conteudo-3-img-texto p{
+    width: 100%;
+  }
+
+  #conteudo-6 #conteudo-6-col-2 p{
+    width: 100%;
+  }
+}
+
+@media(max-width: 576px){
+  #intro .texto-intro{
+    padding: 0 20px;
+  }
+
+  #intro .titulo-pagina{
+    font-size: 2em;
+  }
+
+  #conteudo-1, #conteudo-3, #conteudo-6{
+    padding: 80px 20px;
+    height: 100%;
+  }
+
+  #conteudo-2{
+    height: 100%;
+  }
+
+  #conteudo-2 .container{
+    height: 100%;
+  }
+
+  #conteudo-3 .container{
+    gap: 20px;
+  }
+
+  #conteudo-3-img-texto p{
+    font-size: 1em;
+    margin: 0%;
+  }
+
+  #conteudo-4{
+    height: 100%;
+    padding: 80px 20px;
+  }
+
+  #conteudo-4 .container #fotos{
+    grid-template-columns: 1fr;
+  }
+
+  #conteudo-5{
+    padding: 0;
+  }
+
+  #conteudo-5-linha1, #conteudo-5-linha2{
+    flex-direction: column;
+  }
+
+  #conteudo-5 img{
+    width: 100%;
+  }
+
+  #conteudo-5-linha1 p, #conteudo-5-linha2 p{
+    margin: 0;
+  }
+}

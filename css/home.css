@@ -1,0 +1,505 @@
+section#intro{
+   background-image: url('../img/home/intro-bg.webp');
+}
+
+#intro .container{
+   grid-column: 1/3;
+   grid-row: 1/3;
+}
+
+#texto-intro p.citacao{
+   font-size: 2.5em;
+   font-style: italic;
+   color: var(--corPrimaria);
+}
+#texto-intro p.autor{
+   color: var(--corClara);
+   font-style: italic;
+}
+
+#o-projeto{
+   display: flex;
+   align-items: center;
+   height: 440px;
+}
+
+
+#ultimos-boletins{
+   display: flex;
+   align-items: center;
+   height: 800px;
+}
+
+#ultimos-boletins .cards{
+   display: grid;
+   grid-template-columns: repeat(3, 1fr);
+   gap: 30px;
+}
+
+#ultimos-boletins .cards .card{
+   border: none;
+   border-radius: 0;
+}
+
+#ultimos-boletins .cards .card a{
+   color: var(--corEscura);
+   transition: var(--transition);
+   height: 470px;
+}
+
+#ultimos-boletins .cards .card a:hover{
+   background-color: var(--corBgHover);
+   transition: var(--transition);
+}
+
+#ultimos-boletins .cards .card a:hover .card-text{
+   color: var(--corEscura);
+}
+
+#ultimos-boletins .cards .card .card-title{
+   font-family: 'Rajdhani', sans-serif;
+   font-size: 1.12em;
+   font-weight: bold;
+   letter-spacing: .1em;
+   text-transform: uppercase;
+}
+
+#ultimos-boletins .cards .card .card-title .mes::after{
+   content: '';
+   padding-left: 5px;
+   border-right: 2px solid var(--corEscura);
+}
+
+#ultimos-boletins .cards .card .card-text{
+   color: var(--corClara);
+   letter-spacing: .05em;
+   font-size: .9em;
+}
+
+
+/* intercessores */
+
+#intercessores{
+   display: grid;
+   grid-template-columns: 1fr 1fr;
+   
+   margin: 0;
+   align-items: center;
+   background-color: var(--corPrimaria);
+
+   align-items: center;
+   justify-content: start;
+   background-image: url('../img/home/intercessores.webp');
+   background-position: right center;
+   background-repeat: no-repeat;
+   height: 438px;
+   width: 100vw;
+}
+
+#intercessores .container{
+   display: flex;
+   flex-direction: column;
+   align-items: flex-start;
+
+   grid-column: 1/3;
+   grid-row: 1;
+}
+
+/* #intercessores img{
+   grid-column: 2;
+   grid-row: 1;
+} */
+
+/* #intercessores{
+   display: flex;
+   align-items: center;
+   justify-content: start;
+   background-image: url('../img/home/intercessores.webp');
+   background-position: right center;
+   background-repeat: no-repeat;
+   height: 438px;
+   width: 100vw;
+} */
+
+#intercessores h1{
+   color: var(--corSecundaria);
+   text-transform: uppercase;
+   font-size: 3.5em;
+   font-weight: bolder;
+   width: 440px;
+}
+
+#intercessores .qtde-intercessores{
+   color: #fff;
+}
+
+
+
+
+/* #info */
+
+#info{
+   padding: 80px;
+   display: flex;
+   align-items: center;
+   flex-direction: column;
+}
+
+#info .conteudo{
+   display: flex;
+}
+
+#info .conteudo .texto{
+   display: flex;
+   justify-content: center;
+   flex-direction: column;
+
+   color: var(--corClara);
+
+   padding-left: 20px;
+}
+
+#info .cards {
+   display: grid;
+   grid-template-columns: repeat(3, 1fr);
+   gap: 20px;
+   padding: 80px;
+}
+
+#info .cards .card{
+   padding: 20px;
+   width: 366px;
+   height: 160px;
+   flex-direction: row;
+   border: none;
+
+   background-color: #fff;
+}
+
+#info .cards .card:hover{
+   transition: var(--transition);
+   background-color: var(--corBgHover);
+}
+
+#info .cards .card img{
+   width: 50px;
+   height: 50px;
+}
+
+#info .cards .card .conteudo{
+   display: flex;
+   flex-direction: column;
+   padding-left: 10px;
+
+   width: 100%;
+}
+
+#info .cards .card .conteudo h5{
+   font-family: 'Rajdhani', sans-serif;
+   font-size: 1.25em;
+   color: var(--corEscura);
+   text-transform: uppercase;
+   font-weight: bold;
+
+   padding-bottom: 10px;
+   border-bottom: 2px solid var(--corEscura);
+
+   height: 50px;
+}
+
+#info .cards .card .conteudo p{
+   font-size: 1em;
+   color: var(--corClara);
+}
+
+#motivos-de-oracao{
+   display: flex;
+   align-items: center;
+   justify-content: start;
+   background-image: url('../img/home/motivos-de-oracao.webp');
+   background-position: left center;
+   background-repeat: no-repeat;
+   height: 550px;
+   width: 100vw;  
+}
+
+
+
+
+/* coreia-do-norte-na-midia */
+#coreia-do-norte-na-midia{
+   height: 626px;
+   padding: 80px;
+}
+
+#coreia-do-norte-na-midia .cards{
+   display: grid;
+   grid-template-columns: 1fr 1fr 1fr;
+   grid-template-rows: repeat(2, 100px);
+   grid-template-areas: 
+      "N1 N2 N4"
+      "N1 N3 N5"
+   ;
+   gap: 20px;
+}
+
+#coreia-do-norte-na-midia .cards .card{
+   display: flex;
+
+   border-radius: 0;
+
+   border: none;
+   flex-direction: row;
+   transition: var(--transition)
+}
+
+#coreia-do-norte-na-midia .cards .card:nth-of-type(1){
+   grid-area: N1;
+}
+
+#coreia-do-norte-na-midia .cards .card:nth-of-type(2){
+   grid-area: N2;
+}
+
+#coreia-do-norte-na-midia .cards .card:nth-of-type(3){
+   grid-area: N3;
+}
+
+#coreia-do-norte-na-midia .cards .card:nth-of-type(4){
+   grid-area: N4;
+}
+#coreia-do-norte-na-midia .cards .card:nth-of-type(5){
+   grid-area: N5;
+}
+
+#coreia-do-norte-na-midia .cards .card:nth-of-type(1) a,
+#coreia-do-norte-na-midia .cards .card:nth-of-type(2) a,
+#coreia-do-norte-na-midia .cards .card:nth-of-type(3) a
+{
+   display: grid;
+   align-items: end;
+}
+
+#coreia-do-norte-na-midia .cards .card:nth-of-type(1) a img,
+#coreia-do-norte-na-midia .cards .card:nth-of-type(1) a .conteudo,
+#coreia-do-norte-na-midia .cards .card:nth-of-type(2) a img,
+#coreia-do-norte-na-midia .cards .card:nth-of-type(2) a .conteudo,
+#coreia-do-norte-na-midia .cards .card:nth-of-type(3) a img,
+#coreia-do-norte-na-midia .cards .card:nth-of-type(3) a .conteudo
+{
+   grid-column: 1;
+   grid-row: 1;
+}
+
+#coreia-do-norte-na-midia .cards .card:nth-of-type(4) a,
+#coreia-do-norte-na-midia .cards .card:nth-of-type(5) a
+{
+   display: flex;
+}
+
+#coreia-do-norte-na-midia .cards .card:nth-of-type(4) a img,
+#coreia-do-norte-na-midia .cards .card:nth-of-type(5) a img
+{
+   width: 100px;
+   height: 100px;
+}
+
+#coreia-do-norte-na-midia .cards .card a p.titulo{
+   margin: 0;
+}
+
+
+#coreia-do-norte-na-midia .cards .card a{
+   color: #FFF;
+}
+
+#coreia-do-norte-na-midia .cards .card:nth-of-type(4) a,
+#coreia-do-norte-na-midia .cards .card:nth-of-type(5) a
+{
+   color: var(--corEscura);
+}
+
+#coreia-do-norte-na-midia .cards .card a:hover img
+{
+   filter: brightness(80%) contrast(150%);
+   transition: var(--transition);
+}
+
+#coreia-do-norte-na-midia .cards .card a > img
+{
+   transition: var(--transition);
+   filter: contrast(141%);
+   -webkit-filter: brightness(90%) contrast(141%);
+   -moz-filter: brightness(90%) contrast(141%);
+}
+
+#coreia-do-norte-na-midia .cards .card a .conteudo
+{
+   color: var(--corSecundaria);
+   z-index: 1;
+}
+
+#coreia-do-norte-na-midia .cards .card .conteudo{
+   padding: 0 10px;
+   font-size: 0.9em;
+   margin: 0;
+}
+
+#coreia-do-norte-na-midia .cards .card .conteudo.texto-claro{
+   color: #fff;
+}
+
+#coreia-do-norte-na-midia .cards .card:hover{
+   background-color: var(--corBgHover);
+   transition: var(--transition)
+}
+
+#coreia-do-norte-na-midia .cards .card .info-noticia{
+   margin: 0;
+}
+
+#coreia-do-norte-na-midia .cards .card span.site,
+#coreia-do-norte-na-midia .cards .card span.data
+{
+   font-size: 0.9em;
+   text-transform: uppercase;
+}
+
+#coreia-do-norte-na-midia .card .conteudo .titulo{
+   font-weight: bold;
+}
+#coreia-do-norte-na-midia .card:nth-child(4) .conteudo .titulo,
+#coreia-do-norte-na-midia .card:nth-child(5) .conteudo .titulo{
+   color: var(--corEscura);
+}
+
+
+
+/* #motivos-de-oracao */
+
+#motivos-de-oracao .container{
+   display: flex;
+   flex-direction: column;
+   align-items: flex-end;
+   align-self: start;
+}
+
+#motivos-de-oracao .motivo-de-oracao{
+   font-family: 'Rajdhani', sans-serif;
+   font-size: 1.8em;
+   text-transform: uppercase;
+   font-weight: bolder;
+   padding: 40px;
+   margin-top: 80px;
+   background-color: var(--corPrimaria);
+   color: #fff;
+
+   width: 80%;
+}
+
+#motivos-de-oracao .motivo-de-oracao::after{
+   content: '';
+   width: 10rem;
+   height: 3px;
+   background-color: var(--corSecundaria);
+   display: block;
+}
+
+
+#divulge-e-compartilhe{
+   height: 566px;
+   margin: 200px 0;
+
+   display: grid;
+   align-items: center;
+}
+
+#divulge-e-compartilhe .container{
+   display: flex;
+   flex-direction: row;
+
+   grid-column: 1/4;
+   grid-row: 1;
+}
+
+#divulge-e-compartilhe .col-1{
+   width: 50%;
+}
+
+#divulge-e-compartilhe .col-1 p.texto{
+   color: var(--corClara);
+   padding-right: 20px;
+}
+
+#divulge-e-compartilhe .bg{
+   background-color: var(--corSecundaria);
+   width: 40vw;
+   height: 660px;
+
+   grid-column: 2/4;
+   grid-row: 1;
+
+   display: flex;
+   justify-self: flex-end;
+}
+
+
+
+#secao-cookies{
+   display: none;
+   
+   position: fixed;
+   width: 100%;
+   bottom: 0rem;
+   z-index: 1000;
+ }
+ 
+ .cookies-content{
+   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.15);
+   background-color: #333;
+   max-width: 920px;
+   border-radius: 5px;
+   padding: 1rem;
+   margin: 0 auto;
+ 
+   display: flex;
+   gap: 2rem;
+ }
+ 
+ .cookies-content .cookies-texto, .cookies-btn{
+   display: flex;
+   color: var(--branco);
+   align-items: center;
+ }
+ 
+ .cookies-texto p{
+    font-size: 0.9rem;
+    color: #FFF;
+    margin: 0;
+ }
+ 
+ .cookies-btn button{
+   font-weight: 500;
+ }
+ 
+ .cookies-btn{
+   display: flex;
+   justify-content: center;
+   gap: 20px;
+ }
+ 
+ .cookies-btn button:hover{
+   color: var(--corPrimaria);
+   background-color: #fff;
+ }
+ 
+ .cookies-btn button{
+   background-color: var(--corPrimaria);
+   color: #FFF;
+   cursor: pointer;
+   border: none;
+   border-radius: 5px;
+   font-size: 1rem;
+   width: 120px;
+   height: 40px;
+ }

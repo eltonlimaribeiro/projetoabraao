@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,800;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@500;700&display=swap');
+
+body{
+   font-family: 'Open Sans', sans-serif;
+}
+
+li{
+   font-size: 1.2em;
+   margin: 10px 0 !important;
+}
+
+#cabecalho{
+   margin-top: 150px;
+}
+
+#devocional img{
+   border-radius: 5px;
+}
+
+.nome-projeto{
+   font-family: 'Rajdhani', sans-serif;
+   text-transform: uppercase;
+   font-weight: bold;
+   font-size: 3em;
+   color: var(--corPrimaria)
+}
+
+.slogan{
+   font-size: 1.75em;
+   color: var(--corSecundaria);
+   line-height: 1em;
+   margin: 0;
+}
+
+.subtitulo2{
+   font-size: 1.5em;
+   color: var(--corEscura);
+   font-weight: 600;
+}
+
+#titulo-boletim{
+   font-weight: bold;
+   text-transform: uppercase;
+   font-size: 3em;
+   color: var(--corEscura);
+   margin: 10px 0;
+}
+
+.circulo{
+   margin: 0 auto;
+   content: '';
+   display: block;
+   width: 150px;
+   height: 150px;
+   background: var(--corSecundaria);
+   color: white;
+   border-radius: 50%;
+   display: flex;
+
+   justify-content: center;
+   align-items: center;
+   text-align: center;
+}
+
+.circulo > p{
+   color: white;
+   font-family: 'Rajdhani', sans-serif;
+   font-size: 1.4em;
+   margin: 0;
+   display: flex;
+   flex-direction: column;
+}
+
+.circulo-col{
+   margin: auto auto;
+}
+
+.circulo-center{
+   margin: 0 auto;
+}
+
+.circulo-left{
+   margin: 0 0;
+}
+
+
+.imgComTextoContorno{
+   float: left;
+   margin-right: 20px;
+}
+
+.lista-curiosidades,
+.lista-motivos-de-oracao,
+.lista
+{
+   margin-left: 80px;
+}
+
+.lista-curiosidades li,
+.lista-motivos-de-oracao li,
+.lista li
+{
+   background-color: #eee;
+   padding: 10px;
+   padding-left: 30px;
+   
+   border-left: 5px solid var(--corPrimaria);
+   margin: 5px 0;
+
+   border-top-left-radius: 5px;
+   border-bottom-left-radius: 5px;
+}
+
+.separador-titulo-boletim::before{
+   content: '';
+   width: 50%;
+   height: 6px;
+   background: var(--corSecundaria);
+   display: block;
+   margin: 0 auto;
+}
+
+h2{
+   /* font-family: 'Rajdhani', sans-serif; */
+   font-weight: bold;
+   color: var(--corSecundaria);
+}
+
+
+
+p,
+.lista-curiosidades li,
+.lista-motivos-de-oracao li
+{
+   font-size: 1.2em;
+}

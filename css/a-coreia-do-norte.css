@@ -1,0 +1,214 @@
+#intro .bg{
+   background-image: url('/img/a-coreia-do-norte/intro-bg.webp');
+}
+
+#intro .container{
+   grid-column: 1/3;
+   grid-row: 1/3;
+}
+
+#intro .titulo-pagina{
+   font-size: 3.5em;
+   color: var(--corSecundaria);
+   font-weight: bold;
+   text-transform: uppercase;
+}
+
+#conteudo-1{
+   height: calc(100vh - 50px);
+   display: flex;
+   justify-content: center;
+   flex-direction: column;
+}
+
+#conteudo-1 .container > img{
+   margin: 20px 0;
+   max-width: 100%;
+}
+
+
+#conteudo-1-texto{
+   display: flex;
+}
+
+#conteudo-1-texto div{
+   display: flex;
+   flex-direction: column;
+   padding-left: 20px;
+
+   /* height: 300px; */
+}
+
+#conteudo-1-texto img{
+   height:fit-content;
+}
+
+#conteudo-1-texto div p:nth-child(1){
+   margin-bottom: 10px;
+}
+
+#conteudo-1-texto div p:nth-child(2){
+   margin: 0;
+}
+
+#conteudo-2{
+   height: calc(100vh - 50px);
+   background-color: #EFEFEF;
+
+   display: flex;
+   align-items: center;
+}
+
+#conteudo-2 .container{
+   background-color: var(--corSecundaria);
+   color: #FFF;
+   display: flex;
+   padding: 0;
+}
+
+#conteudo-2 .container #conteudo-2-texto{
+   padding: 10px;
+}
+
+#conteudo-2-texto p{
+   margin-bottom: 5px;
+}
+
+#conteudo-3{
+   height: calc(100vh - 50px);
+   display: flex;
+   align-items: center;
+}
+
+#conteudo-3 .container{
+   display: flex;
+   flex-direction: column;
+   gap: 80px;
+}
+
+#conteudo-3 #conteudo-3-texto-1{
+   display: flex;
+   gap: 20px;
+}
+
+#conteudo-3 #conteudo-3-texto-1 p{
+   margin: 0;
+}
+
+#conteudo-3-img-texto{
+   display: grid;
+   grid-template-columns: 1fr;
+   grid-template-rows: 1fr;
+
+   justify-items: center;
+   align-items: center;
+}
+
+#conteudo-3-img-texto img,
+#conteudo-3-img-texto p
+{
+   grid-column: 1;
+   grid-row: 1;
+}
+
+#conteudo-3-img-texto p{
+   font-size: 2.5em;
+   font-style: italic;
+   color: #fff;
+   width: 640px;
+   text-align: center;
+}
+
+#conteudo-3-texto-2{
+   display: flex;
+   gap: 20px;
+}
+
+#conteudo-3-texto-2 p{
+   margin: 0;
+}
+
+#conteudo-4{
+   height: calc(100vh - 50px);
+   background-color: #EFEFEF;
+
+   display: flex;
+   align-items: center;
+}
+
+#conteudo-4 .container{
+   display: flex;
+   flex-direction: column;
+   gap: 80px;
+}
+
+#conteudo-4 .container #fotos{
+   display: flex;
+   justify-content: space-between;
+   gap: 20px;
+}
+
+#conteudo-5{
+   height: calc(100vh - 50px);
+   display: flex;
+   align-items: center;
+}
+
+#conteudo-5 .container{
+   background-color: var(--corSecundaria);
+   padding: 0;
+}
+
+#conteudo-5-linha1,
+#conteudo-5-linha2
+{
+   display: flex;
+   align-items: center;
+}
+
+#conteudo-5-linha1 p,
+#conteudo-5-linha2 p
+{
+   padding: 20px;
+   color: #fff;
+}
+
+#conteudo-6{
+   height: calc(100vh - 50px);
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   gap: 20px;
+
+   background-color: #EFEFEF;
+}
+
+#conteudo-6 .container{
+   display: flex;
+   justify-content: space-between;
+}
+
+#conteudo-6 .container:nth-child(2) p{
+   font-size: .8em;
+}
+
+#conteudo-6 #conteudo-6-col-2{
+   display: flex;
+   flex-direction: column;
+   align-items: flex-end;
+   justify-content: center;
+   /* padding-left: 20px; */
+}
+
+#conteudo-6 #conteudo-6-col-2 p{
+   text-align: right;
+   width: 500px;
+}
+
+#conteudo-6 #conteudo-6-col-2 p:nth-child(3){
+   font-size: 3.5em;
+   font-weight: bold;
+   text-transform: uppercase;
+   color: var(--corEscura);
+   width: 320px;
+}

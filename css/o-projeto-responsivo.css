@@ -1,0 +1,134 @@
+@media(max-width: 1440px){
+  #intro img{
+    width: 180px;
+  }
+
+  #intro .titulo-pagina{
+    font-size: 3em;
+  }
+
+  #intro .slogan{
+    font-size: 2em;
+  }
+
+  #o-projeto, 
+  #por-que-projeto-abraao
+  {
+    height: auto;
+    padding: 80px 0;
+  }
+}
+
+@media(max-width: 1366px){
+  #intro img{width: 100px;}
+
+}
+
+@media(max-width: 1024px){
+  #section#intro img{
+    width: 150px;
+  }
+
+  #intro .texto-intro{
+    padding: 0 80px;
+  }
+
+  #intro .titulo-pagina{
+    font-size: 2.5em;
+  }
+
+  #intro .slogan{
+    font-size: 1.5em;
+  }
+
+  #o-projeto{
+    padding: 80px;
+  }
+
+  #o-projeto #intercessores .qtde-intercessores{
+    font-size: 3.5em;
+  }
+
+  #o-projeto #intercessores div span:nth-child(2){
+    font-size: 2em;
+  }
+
+  .titulo-secao{
+    font-size: 2em;
+  }
+
+  #como-tornar-se-um-intercessor{
+    padding: 80px;
+  }
+}
+
+@media(max-width: 768px) {
+  #por-que-projeto-abraao p{
+    font-size: .9em;
+  }
+
+  #o-projeto #intercessores{
+    grid-template-columns: 1fr;
+  }
+
+  #o-projeto #intercessores div{
+    grid-column: 1;
+    margin-left: 20px
+  }
+
+  #o-projeto #intercessores img{
+    grid-column: 1;
+  }
+
+  #por-que-projeto-abraao img{
+    display: none;
+  }
+
+  #por-que-projeto-abraao .container .texto {
+    padding: 80px 20px;
+  }
+}
+
+@media(max-width: 576px){
+  #intro .texto-intro{
+    padding: 0 20px;
+  }
+
+  #intro img{
+    width: 100px;
+  }
+
+  #intro .slogan{
+    width: 80%;
+  }
+
+  #intro .titulo-pagina{
+    font-size: 2em;
+  }
+
+  #o-projeto{
+    padding: 80px 20px;
+  }
+
+  #o-projeto #intercessores .qtde-intercessores{
+    font-size: 2.5em;
+  }
+
+  #o-projeto #intercessores div span:nth-child(2){
+    font-size: 1.5em;
+  }
+
+  #o-projeto #intercessores div{
+    grid-template-rows: none;
+    padding-right: 10px;
+  }
+
+  #o-projeto #intercessores div span:nth-child(2){
+    margin-left: 30px;
+  }
+
+  #como-tornar-se-um-intercessor{
+    height: 100%;
+    padding: 80px 20px;
+  }
+}
